@@ -34,13 +34,25 @@ the primary drinking water source for Vadodara city.
 
 ---
 
-## Tools & Data Sources
+### Input Variables
 
-- **Google Earth Engine** — classification, change detection, hotspot analysis
-- **Landsat 8 Collection 2 Level-2** — surface reflectance imagery
-- **QGIS** — map export and cartographic output
-- **Google Earth Pro** — site-level validation
-- **MNDWI** — supplementary water index for cross-validation
+The Random Forest classifier was trained using the following Landsat 8 OLI/TIRS bands
+and derived spectral indices:
+
+| Variable | Description |
+|----------|-------------|
+| B2 | Blue (0.45–0.51 µm) |
+| B3 | Green (0.53–0.59 µm) |
+| B4 | Red (0.64–0.67 µm) |
+| B5 | Near Infrared — NIR (0.85–0.88 µm) |
+| B6 | Shortwave Infrared 1 — SWIR1 (1.57–1.65 µm) |
+| B7 | Shortwave Infrared 2 — SWIR2 (2.11–2.29 µm) |
+| MNDWI | Modified Normalised Difference Water Index = (B3 − B6) / (B3 + B6) |
+| NDVI | Normalised Difference Vegetation Index = (B5 − B4) / (B5 + B4) |
+| NDWI | Normalised Difference Water Index = (B3 − B5) / (B3 + B5) |
+
+MNDWI is particularly effective at separating open water from built-up and bare soil,
+making it the primary discriminating index for water/non-water classification.
 
 ---
 
