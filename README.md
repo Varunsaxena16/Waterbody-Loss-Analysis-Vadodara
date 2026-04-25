@@ -119,4 +119,10 @@ Three loss sites were validated against Google Earth Pro historical imagery:
 
 ---
 
-## Repository Structure
+## Tools & Data Sources
+
+- **Google Earth Engine** — classification, change detection, hotspot analysis
+- **Landsat 8 Collection 2 Level-2** — surface reflectance imagery
+- **QGIS** — map export and cartographic output
+- **Google Earth Pro** — site-level validation
+- **MNDWI** — supplementary water index for cross-validation
