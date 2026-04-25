@@ -97,11 +97,11 @@ zone, suggesting multiple independent causes. Highest loss density clusters near
 
 Three loss sites were validated against Google Earth Pro historical imagery:
 
-| # | Location | Coordinates | Pre (2015) | Post (2025) | Validated |
-|---|----------|-------------|------------|-------------|-----------|
-| 1 | Ajwa Reservoir | 22°24'N 73°22'E | Full open water | N. arm sediment exposed | ✅ |
-| 2 | GIDC Pond | 22°17'N 73°22'E | Natural pond intact | Pond reduced, industrial adj. | ✅ |
-| 3 | Rawal Pond | 22°21'N 73°21'E | Clear open water | Dense weed/algae cover | ✅ |
+| # | Location | Coordinates | Pre (2015) | Post (2025) |
+|---|----------|-------------|------------|-------------|
+| 1 | Ajwa Reservoir | 22°24'N 73°22'E | Full open water | N. arm sediment exposed |
+| 2 | GIDC Pond | 22°17'N 73°22'E | Natural pond intact | Pond reduced, industrial adj. |
+| 3 | Rawal Pond | 22°21'N 73°21'E | Clear open water | Dense weed/algae cover |
 
 ---
 
